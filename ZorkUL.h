@@ -20,7 +20,6 @@ private:
 public:
 	ZorkUL();
     void play();
-    string teleport();
     string goRoom(string direction);
 
 

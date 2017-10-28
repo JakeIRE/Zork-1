@@ -15,7 +15,6 @@ private:
 	map<string, Room*> exits;
 	string exitString();
     vector <Item> itemsInRoom;
-    vector <Room*> roomList;
 
 
 public:
@@ -26,8 +25,6 @@ public:
 	string longDescription();
 	Room* nextRoom(string direction);
     void addItem(Item *inItem);
-    void addRoom(Room *room);
-    Room* randomRoom();
     string displayItem();
     int isItemInRoom(string inString);
     void removeItemFromRoom(int location);

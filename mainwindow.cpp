@@ -23,13 +23,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_TeleportBtn_clicked()
 {
- ui->label->setText(QString::fromStdString((temp.teleport())));
-  image.load("D:/qtprojects/ZorkGui/4aTDsgTECUBfIjB0_nhZjelXP9wVmKKaOcbozI1wktQ.jpg");
- scene->addPixmap(image);
- scene->setSceneRect(image.rect());
- ui->layoutImage->setScene(scene);
-
-
 }
 
 void MainWindow::on_NorthBtn_clicked()

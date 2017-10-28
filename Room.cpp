@@ -47,17 +47,6 @@ void Room::addItem(Item *inItem) {
     //cout << "Just added" + inItem->getLongDescription();
     itemsInRoom.push_back(*inItem);
 }
-void Room::addRoom(Room *room){
-   roomList.push_back(room);
-
-}
-Room* Room::randomRoom(){
-    int x= roomList.size();
-    int y =rand() % x;
-    return roomList[y];
-
-}
-
 string Room::displayItem() {
     string tempString = "items in room = ";
     int sizeItems = (itemsInRoom.size());

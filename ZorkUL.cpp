@@ -76,11 +76,3 @@ string ZorkUL::goRoom(string direction) {
         return currentRoom->longDescription();
 
 }
-string ZorkUL::teleport(){
-        Room* nextRoom= currentRoom->randomRoom();
-        if (nextRoom == NULL){}
-        else {
-        currentRoom = nextRoom;
-        }
-        return currentRoom->longDescription();
-}

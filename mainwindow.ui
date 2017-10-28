@@ -66,19 +66,6 @@
      <string>South</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="TeleportBtn">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>410</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Teleport</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -107,7 +94,6 @@
    <zorder>EastBtn</zorder>
    <zorder>WestBtn</zorder>
    <zorder>SouthBtn</zorder>
-   <zorder>TeleportBtn</zorder>
    <zorder>label</zorder>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
