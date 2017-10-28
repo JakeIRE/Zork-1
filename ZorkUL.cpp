@@ -30,31 +30,7 @@ void ZorkUL::createRooms()  {
 	h = new Room("h");
 	i = new Room("i");
     j = new Room("j");
-    vector <Room*> roomList;
-    roomList.pushback(a);
-    roomList.pushback(b);
-    roomList.pushback(c);
-    roomList.pushback(d);
-    roomList.pushback(e);
-    roomList.pushback(f);
-    roomList.pushback(g);
-    roomList.pushback(h);
-    roomList.pushback(i);
-    roomList.pushback(j);
-    int listsize =roomlist.size();
-    int exitscounts[roomlist.size()];
-    for(int x=0;x<exitscounts.length;x++)
-        exitscounts[x]=1+(rand() % 3);
-    while(!roomlist.size())
-        {
-            for(int y=0;y<listsize;y++)
-            {
-                while(exitscounts[y]){
-
-                }
-            }
-        }
-//             (N, E, S, W)
+  //             (N, E, S, W)
 	a->setExits(f, b, d, c);
 	b->setExits(NULL, NULL, NULL, a);
 	c->setExits(NULL, a, NULL, NULL);
